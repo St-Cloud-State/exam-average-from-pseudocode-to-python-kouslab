@@ -51,7 +51,7 @@ def main():
     print(f"Third score: {num3}")
 
     #Display the result for the average of the three exam score and round to 2 decimal places
-    print(f"The average score is: {result}")
+    print(f"The average score is: {result:.2f}")
 
 #Call the main function to execute the program
 main()
@@ -59,7 +59,7 @@ main()
 '''
 future improvement:
     - we should use the exception to handle the ValueError whether the negative number or float number.
-    - we should round the result to 2 decimal places.     
+    - we should have the feature where the user can choose to enter how many exam scores they want to calculate the average.     
 '''
 
 
