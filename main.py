@@ -56,11 +56,6 @@ def main():
 #Call the main function to execute the program
 main()
 
-'''
-future improvement:
-    - we should use the exception to handle the ValueError whether the negative number or float number.
-    - we should have the feature where the user can choose to enter how many exam scores they want to calculate the average.     
-'''
 
 
 
