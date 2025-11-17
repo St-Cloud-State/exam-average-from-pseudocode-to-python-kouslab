@@ -1,8 +1,8 @@
 """
 Kou Yang
-IS-250
-Calculate Average of Three Scores
-Due Date: 11/17/2025
+IS-250-01
+Calculate Average of Three exam Scores
+Submission date: 11/16/2025
 """
 """
     Pseudocode: 
@@ -41,13 +41,13 @@ def main():
     #Call the calculate_average function and assign the result to a variable named "result"
     result = calculate_average(num1, num2, num3)
 
-    #Display the first score
+    #Display the first score that the user entered
     print(f"First score: {num1}")
 
-    #Display the second score
+    #Display the second score that the user entered
     print(f"Second score: {num2}")
 
-    #Display the third score
+    #Display the third score that the user entered
     print(f"Third score: {num3}")
 
     #Display the result for the average of the three exam score and round to 2 decimal places
